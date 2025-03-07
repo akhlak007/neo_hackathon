@@ -14,6 +14,9 @@ dependencies:
 
   # UI Enhancements
   cupertino_icons: ^1.0.8
+  local_notifier: ^0.1.6
+  flutter_gemini: ^3.0.0
+  dash_chat_2: ^0.0.21
   google_fonts: ^6.2.1  # ✅ Added Google Fonts
 
   # Firebase & Authentication
@@ -44,8 +47,8 @@ dependencies:
   # Payments (Optional)
   flutter_stripe: ^9.4.0  # ✅ Stripe payments (for meal pre-orders)
 
-  # ARCore Plugin
-  arcore_flutter_plugin: ^0.0.6  # Added ARCore plugin for AR functionality
+  # ARCore Plugin (Updated to version 0.1.0 or higher)
+  arcore_flutter_plugin: ^0.1.0  # Updated ARCore plugin for AR functionality
 
 dev_dependencies:
   flutter_test:
