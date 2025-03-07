@@ -1,0 +1,67 @@
+name: neo_hackathon
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI Enhancements
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1  # ✅ Added Google Fonts
+
+  # Firebase & Authentication
+  firebase_core: ^2.30.1  # ✅ Required for Firebase
+  firebase_auth: ^4.17.4  # ✅ For authentication
+  cloud_firestore: ^4.15.4  # ✅ Firestore database
+
+  # State Management & Utilities
+  provider: ^6.1.2  # ✅ State management
+  shared_preferences: ^2.2.2  # ✅ Local storage
+
+  # Navigation & Routing
+  go_router: ^13.2.4  # ✅ Declarative navigation
+
+  # Maps & Location
+  google_maps_flutter: ^2.6.1  # ✅ Google Maps
+  geolocator: ^11.0.0  # ✅ GPS tracking
+  flutter_compass: ^0.8.0  # ✅ AR navigation support
+
+  # Notifications (Fixed Duplicate Issue)
+  firebase_messaging: ^14.7.19  # ✅ Push notifications
+  flutter_local_notifications: ^16.3.2  # ✅ Local notifications (Fixed)
+
+  # Image Handling & Storage
+  firebase_storage: ^11.6.12  # ✅ For storing images
+  image_picker: ^1.1.1  # ✅ Image selection from gallery/camera
+
+  # Payments (Optional)
+  flutter_stripe: ^9.4.0  # ✅ Stripe payments (for meal pre-orders)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ✅ Adding assets (Ensure the directories exist)
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # ✅ Adding Google Fonts
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 700
