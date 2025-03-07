@@ -1,16 +1,17 @@
-
 import 'package:flutter/material.dart';
 
 class FeatureCard extends StatelessWidget {
   final String title;
   final IconData icon;
   final Color color;
+  final VoidCallback onTap;  // Added the onTap callback
 
   const FeatureCard({
     super.key,
     required this.title,
     required this.icon,
     required this.color,
+    required this.onTap,  // Added the onTap parameter
   });
 
   @override
@@ -21,9 +22,7 @@ class FeatureCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
       ),
       child: InkWell(
-        onTap: () {
-          // Navigate to feature
-        },
+        onTap: onTap,  // Use the onTap callback passed from the parent
         borderRadius: BorderRadius.circular(16),
         child: Container(
           padding: const EdgeInsets.all(16),
