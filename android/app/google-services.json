@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "668473864601",
+    "project_id": "smartaccess-9bf14",
+    "storage_bucket": "smartaccess-9bf14.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668473864601:android:7bc0e416e4bf150673e308",
+        "android_client_info": {
+          "package_name": "com.example.neo_hackathon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMN2hGKENSk5I73OjkVBe5176-S9wfmXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
